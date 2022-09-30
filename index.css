@@ -1,0 +1,100 @@
+@font-face {
+    src: url(CursedTimerULiL.ttf);
+    font-family:Cursed;
+  }
+
+
+body {
+
+    margin:0px;
+    background-image: url("basketbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    
+
+}
+
+.container{
+    background: #1B244A;
+      height: 450px;
+      width: 575px;
+      margin: 200px auto 0 auto; 
+      border: 20px solid #9AABD8;
+      border-radius: 20px;
+}
+ 
+.homeGuest{
+   padding-top: 50px;
+   color:#E5E5E5;
+   display: flex;
+   justify-content: space-around;
+   font-family: 'Verdana';
+   font-style: normal;
+   font-size: 20px;
+}
+
+
+.Timertag{
+    display: flex;
+   justify-content: space-around;
+
+
+}
+
+
+.Timer{
+    background: #080001;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color:red;
+    font-size: 90px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    font-family:Cursed;
+
+}
+.number1{
+
+   color:whitesmoke;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px;
+
+}
+
+.hit1{
+     display:flex;
+}
+
+
+
+button {
+    margin:5px;
+    display: flex;
+    border: 2px solid #9AABD8;
+    height: 45px;
+    width: 45px;
+    background: #1B244A;
+    font-size: 25px;
+    font-family:Cursed;
+    color: whitesmoke;
+
+}
+button:hover {
+    
+    background-color:goldenrod;
+}
+
+.reset{
+    max-width:200px;
+    margin: 40 auto;
+    height: 45px;
+    width: 100px;
+    
+
+
+}
